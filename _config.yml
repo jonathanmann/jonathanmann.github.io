@@ -17,3 +17,8 @@ author:
 version:          1.0.0
 github:
   repo:           http://jonathanmann.github.io/
+
+pages_list:       
+  Projects: '/projects'
+  Resume: '/resume'
+  Blog: '/blog'
