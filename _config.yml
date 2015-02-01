@@ -20,5 +20,7 @@ github:
 
 pages_list:       
   Projects: '/projects'
-  Resume: '/resume'
+  Work: '/work'
   Blog: '/blog'
+  Interests: '/interests'
+  Personal: '/personal'
