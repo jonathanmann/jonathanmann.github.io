@@ -19,8 +19,6 @@ github:
   repo:           http://jonathanmann.github.io/
 
 pages_list:       
-  Projects: '/projects'
-  Work: '/work'
+  About: '/about'
   Blog: '/blog'
-  Interests: '/interests'
-  Personal: '/personal'
+  Projects: '/projects'
