@@ -21,4 +21,6 @@ github:
 pages_list:       
   About: '/about'
   Blog: '/blog'
-  Projects: '/projects'
+  Coding: '/coding'
+  Demos: '/demos'
+  Else: '/else'
