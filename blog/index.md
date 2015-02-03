@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Blog
 ---
 
 I grew up in [Jericho, Vermont](http://www.jerichovt.gov/), graduated from [SUNY New Paltz](http://www.newpaltz.edu/) in Economics, and work as a software developer and data analyst for the securities class action law firm [Labaton Sucharow](http://labaton.com/). 
