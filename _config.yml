@@ -20,7 +20,5 @@ github:
 
 pages_list:       
   About: '/about'
-  Blog: '/blog'
-  Coding: '/coding'
-  Demos: '/demos'
+  Projects: '/projects'
   Else: '/else'
