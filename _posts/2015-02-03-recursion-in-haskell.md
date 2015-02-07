@@ -15,6 +15,20 @@ two_to_the_power 0 = 1
 two_to_the_power n = two_to_the_power (n-1) + two_to_the_power (n-1)
 {% endhighlight %}
 
+### Visualization
+
+To get a clearer picture of what is going on, consider the diagram below:
+![recursion_tree](http://jonathanmann.github.io/public/img/recursion_tree.png)
+With the exception of the nodes that satisfy the base case and return the value 1, each node has two child nodes. The return value of the parent node is the sum of the return values of its children. At the base of the pyramid, where each node receives the value of 0 as input satisfying the base case, the sum of the return values for the eight nodes is 8 since each node returns the value 1. 
+
+In the next level up, where each node has an input value of 1, the return value is sum of its child nodes, so each of the four nodes on this level has a return value of 2.
+
+Similarly, in the subsequent level, where each node has an input value of 2, both of the nodes return 4.
+
+Finally, at the top level, the node with an input value of 3 returns 8, the sum of its child nodes. 
+
+Interestingly, you can see that on each level, if you sum the return values for all the nodes, you always get back 8, the final return value for the problem.
+
 ### Explanation
 
 Let's walk through the code line by line.
@@ -61,16 +75,4 @@ Now we're onto something though, because when we pass the input value 0 into our
 
 Now that we have gotten to the bottom of things, the solution can propagate back up the chain, but since this is a naive implementation, every recursive call must be evaluated all the way down to its base case (or one of its base cases if more than a single base case is defined) in order to return a value.
 
-### Visualization
 
-To get a clearer picture of what is going on, consider the diagram below:
-![recursion_tree](../public/img/recursion_tree.png)
-With the exception of the nodes that satisfy the base case and return the value 1, each node has two child nodes. The return value of the parent node is the sum of the return values of its children. At the base of the pyramid, where each node receives the value of 0 as input satisfying the base case, the sum of the return values for the eight nodes is 8 since each node returns the value 1. 
-
-In the next level up, where each node has an input value of 1, the return value is sum of its child nodes, so each of the four nodes on this level has a return value of 2.
-
-Similarly, in the subsequent level, where each node has an input value of 2, both of the nodes return 4.
-
-Finally, at the top level, the node with an input value of 3 returns 8, the sum of its child nodes. 
-
-Interestingly, you can see that on each level, if you sum the return values for all the nodes, you always get back 8, the final return value for the problem.
