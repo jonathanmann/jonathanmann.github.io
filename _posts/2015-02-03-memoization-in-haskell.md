@@ -15,7 +15,7 @@ two_to_the_power 0 = 1
 two_to_the_power n = two_to_the_power (n-1) + two_to_the_power (n-1)
 {% endhighlight %}
 
-### Implementation
+### Explanation
 
 Let's walk through the code line by line.
 {% highlight hs %}two_to_the_power :: Int -> Integer{% endhighlight %}
@@ -60,6 +60,8 @@ two_to_the_power 1 = two_to_the_power (1-1) + two_to_the_power (1-1)
 Now we're onto something though, because when we pass the input value 0 into our function, the base case is satisfied, and the function returns the value 1. 
 
 Now that we have gotten to the bottom of things, the solution can propagate back up the chain, but since this is a naive implementation, every recursive call must be evaluated all the way down to its base case (or one of its base cases if more than a single base case is defined) in order to return a value.
+
+### Visualization
 
 To get a clearer picture of what is going on, consider the diagram below:
 ![recursion_tree](../public/img/recursion_tree.png)
