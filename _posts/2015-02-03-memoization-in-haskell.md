@@ -8,15 +8,13 @@ To better understand how memoization works with Haskell's lazy evaluation, let's
 ### Naive Implementation
 
 Consider the following [code](https://github.com/jonathanmann/memoization_in_haskell/blob/master/naive_recursive_two_to_the_power.hs) :
-
+<small>
 {% highlight hs %}
-
 naive_recursive_two_to_the_power :: Int -> Integer
 naive_recursive_two_to_the_power 0 = 1
 naive_recursive_two_to_the_power n = naive_recursive_two_to_the_power(n-1) + naive_recursive_two_to_the_power(n-1)
-
 {% endhighlight %}
-
+</small>
 Let's walk through the code line by line.
 {% highlight hs %}naive_recursive_two_to_the_power :: Int -> Integer{% endhighlight %}
 The first line indicates that the function "naive_recursive_two_to_the_power" will take in datatype Int and return the datatype Integer. The difference between these two datatypes has to do with the maximum size of the integer that the datatype can store. For our purposes, you can simply think of both types as integers, but a detailed explanation can be found [here](http://stackoverflow.com/questions/17766424/dubious-int-vs-integer-handling-in-haskell).
