@@ -12,7 +12,7 @@ Consider the [naive implementation](https://github.com/jonathanmann/blog_example
 {% highlight hs %}
 r_two_to_power :: Int -> Integer
 r_two_to_power 0 = 1
-r_two_to_power n = two_to_power(n-1) + two_to_power(n-1)
+r_two_to_power n = r_two_to_power(n-1) + r_two_to_power(n-1)
 {% endhighlight %}
 
 This implementation returns the correct result, but it could be improved to become much faster with memoization.
@@ -40,10 +40,10 @@ m_two_to_power = (map two_to_power [0 ..] !!)
 
 Let's start from the beginning.
 {% highlight hs %}m_two_to_power :: Int -> Integer{% endhighlight %}
-For the first line, the only difference from the naive implementation is that we've prepended 'm_' to the function name to indicate that this is a memoized version of the function.
+For the first line, the only difference from the naive implementation is that we've switched the leading letter from 'r' to 'm' to indicate that this is a memoized version of the function.
 The second line is where things start to get interesting:
 {% highlight hs %}m_two_to_power = (map two_to_power [0 ..] !!){% endhighlight %}
-Here we define all cases of m_two_to_power as mapping to the function two_to_power
+Here we define all cases of m_two_to_power as mapping to the corresponding output of the function two_to_power given the same input. 
 
 
 
