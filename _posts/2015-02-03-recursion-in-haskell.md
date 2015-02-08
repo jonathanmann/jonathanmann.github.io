@@ -39,6 +39,8 @@ The second line establishes the base case. Whenever the value 0 is passed to the
 {% highlight hs %}r_two_to_power n = r_two_to_power (n-1) + r_two_to_power (n-1){% endhighlight %}
 The final line gives instructions for what the function should return for any number "n" not in the base case. Here the function calls itself recursively for the (n - 1) case until the base case is reached and adds the returned value to another instance of the (n - 1) case.
 
+### Example
+
 As an example, let's walk through what happens when we input the number 3 into the function. During the tracing process, we will skip the first line since it simply tells the function what to expect.
 
 {% highlight hs %}r_two_to_power 3{% endhighlight %}
