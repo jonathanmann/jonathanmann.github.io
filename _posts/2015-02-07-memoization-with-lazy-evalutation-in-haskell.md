@@ -85,33 +85,70 @@ Moving up one level, when
   <thead>
     <tr>
       <th>Step</th>
-      <th>Value</th>
+	  <th>Input</th>
+	  <th>Level-Node</th>
+	  <th>Map</th>
+      <th>Recurses</th>
     </tr>
   </thead>
   <tfoot>
     <tr>
-
       <td>1</td>
-      <td>NULL</td>
+	  <td>3</td>
+      <td>3-0</td>
+	  <td>[]</td>
+	  <td>True</td>
     </tr>
   </tfoot>
   <tbody>
     <tr>
-
       <td>2</td>
-      <td>11</td>
+	  <td>2</td>
+      <td>2-0</td>
+	  <td>[]</td>
+	  <td>True</td>
     </tr>
     <tr>
-
       <td>3</td>
-      <td>3</td>
+	  <td>1</td>
+      <td>1-0</td>
+	  <td>[]</td>
+	  <td>True</td>
     </tr>
     <tr>
-
       <td>4</td>
-      <td>9</td>
+	  <td>0</td>
+      <td>0-0</td>
+	  <td>[0:1]</td>
+	  <td>False</td>
+    </tr>
+	<tr>
+      <td>5</td>
+	  <td>0</td>
+      <td>0-1</td>
+	  <td>[0:1]</td>
+	  <td>False</td>
+    </tr>
+	<tr>
+      <td>6</td>
+	  <td>1</td>
+      <td>1-1</td>
+	  <td>[0:1,1:2]</td>
+	  <td>False</td>
+    </tr>
+	<tr>
+      <td>7</td>
+	  <td>2</td>
+      <td>2-1</td>
+	  <td>[0:1,1:2,2:4]</td>
+	  <td>False</td>
+    </tr>
+	<tr>
+      <td>8</td>
+	  <td>3</td>
+      <td>3-0</td>
+	  <td>[0:1,1:2,2:4,3:8]</td>
+	  <td>False</td>
     </tr>
   </tbody>
 </table>
-
-
