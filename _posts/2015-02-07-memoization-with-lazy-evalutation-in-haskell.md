@@ -54,7 +54,7 @@ But wait! The function "two_to_power" has not been defined! Won't this break the
 {% highlight hs %}
     where two_to_power 0 = 1
 {% endhighlight %}
-In Haskell, you can define sub-functions after the where clause which can be called within the main fuction body. Here a base case is defined for the sub-function "two_to_power".
+In Haskell, you can define sub-patterns after the where clause which can be called within the main fuction body. Here a base case is defined for the sub-pattern "two_to_power".
 {% highlight hs %}
           two_to_power n = m_two_to_power(n-1) + m_two_to_power(n-1)
 {% endhighlight %}
@@ -67,8 +67,16 @@ Let's step through the function when we input the value of 3.
 m_two_to_power 3
 {% endhighlight %}
 
-First the function, m_two_to_power, looks to the mapped sub-function, two_to_power, for a value.
+First the function, m_two_to_power, looks to the mapped sub-pattern, two_to_power, for a value.
+Since the input does not match the sub-pattern's base case, the n case pattern is evaluated for the input 3.
+{% highlight hs %}
+two_to_power 3 = m_two_to_power(3-1) + m_two_to_power(3-1)
+{% endhighlight %}
+Similarly, when the right leg of the sub-pattern is evaluated for the values of 2 and 1, we see the same recursive pattern, but, once we the input 0, something interesting happens: 
 
+the base case is satisfied and now the first value in the two_to_power[0..] list has been evaluated.
+
+Moving up one level, when 
 
 
 ### Step Table
@@ -84,7 +92,7 @@ First the function, m_two_to_power, looks to the mapped sub-function, two_to_pow
     <tr>
 
       <td>1</td>
-      <td>23</td>
+      <td>NULL</td>
     </tr>
   </tfoot>
   <tbody>
