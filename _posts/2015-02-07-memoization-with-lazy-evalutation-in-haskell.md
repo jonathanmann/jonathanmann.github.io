@@ -76,8 +76,7 @@ Similarly, when the right leg of the sub-pattern is evaluated for the values of 
 
 the base case is satisfied and now the first value in the two_to_power[0..] list has been evaluated.
 
-Moving up one level, when 
-
+For a step by step walkthough, review the step table below :
 
 ### Step Table
 
@@ -91,7 +90,7 @@ Moving up one level, when
       <th>Recurses</th>
     </tr>
   </thead>
-  <tfoot>
+  <tbody>
     <tr>
       <td>1</td>
 	  <td>3</td>
@@ -99,8 +98,6 @@ Moving up one level, when
 	  <td>[]</td>
 	  <td>True</td>
     </tr>
-  </tfoot>
-  <tbody>
     <tr>
       <td>2</td>
 	  <td>2</td>
