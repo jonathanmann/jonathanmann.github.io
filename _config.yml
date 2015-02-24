@@ -21,5 +21,5 @@ github:
 pages_list:       
   About: '/about'
   Projects: '/projects'
-  Else: '/else'
   GitHub : 'https://github.com/jonathanmann'
+  Else: '/else'
