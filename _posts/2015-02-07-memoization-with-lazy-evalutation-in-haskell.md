@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stepping Through Memoization in Haskell
-image: m_recursion_tree.png
+image: http://jonathanmann.github.io/public/img/m_recursion_tree.png
 excerpt: To better understand how memoization works with Haskell's lazy evaluation, let's walk through a simple example step by step. As a learning tool, we'll examine a simple function that raises the number two to a the power of whatever number is given as input.
 ---
 
