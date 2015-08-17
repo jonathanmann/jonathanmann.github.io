@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Price Targets Poor Predictor of Stock Performance
+title: Price Targets Poor Performance Predictor
 image: http://jonathanmann.github.io/public/img/current_v_target_pred.png
 excerpt: In order to determine the relationship between consensus price targes and stock performance, I decided to measure the accuracy of predictions made from 2013 to the first two quarters of 2014 against the actual results from the matching quarter of the following year.  
 ---
