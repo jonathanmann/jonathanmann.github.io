@@ -9,7 +9,7 @@ To better understand how memoization works with Haskell's lazy evaluation, let's
 
 ### Naive Implementation
 
-Consider the [naive implementation](https://github.com/jonathanmann/blog_examples/blob/master/recursion_in_haskell/r_two_to_power.hs) :
+Consider the [naive implementation](https://github.com/jonathanmann/blog_examples/blob/master/Haskell/recursion/r_two_to_power.hs) :
 
 {% highlight hs %}
 r_two_to_power :: Int -> Integer
@@ -31,7 +31,7 @@ In our new model, the number of calculations for each additional step expands li
 
 ### Memoized Implementation
 
-The [memoized implementation](https://github.com/jonathanmann/blog_examples/blob/master/memoization_in_haskell/m_two_to_power.hs) will look very similar to the naive implementation, but with a few key distinctions. We'll walk throught the differences line by line.
+The [memoized implementation](https://github.com/jonathanmann/blog_examples/blob/master/Haskell/memoization/m_two_to_power.hs) will look very similar to the naive implementation, but with a few key distinctions. We'll walk throught the differences line by line.
 
 {% highlight hs %}
 m_two_to_power :: Int -> Integer

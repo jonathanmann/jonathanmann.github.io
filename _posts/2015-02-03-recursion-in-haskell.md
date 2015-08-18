@@ -9,7 +9,7 @@ To understand how recursion works, let's walk through a simple example step by s
 
 ### Implementation
 
-Consider the following [code](https://github.com/jonathanmann/blog_examples/blob/master/recursion_in_haskell/r_two_to_power.hs) :
+Consider the following [code](https://github.com/jonathanmann/blog_examples/blob/master/Haskell/recursion/r_two_to_power.hs) :
 
 {% highlight hs %}
 r_two_to_power :: Int -> Integer
