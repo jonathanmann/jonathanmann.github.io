@@ -11,16 +11,18 @@ In order to determine the relationship between consensus price targes and stock 
 
 ![price_target_accuracy](http://jonathanmann.github.io/public/img/price_target_accuracy.png) 
 
-The [code for the visualization in R](https://github.com/jonathanmann/blog_examples/blob/master/price_target_accuracy_in_R/price_target_accuracy.R) :
+The [code for the visualization in R](https://github.com/jonathanmann/blog_examples/blob/master/R/price_target_accuracy/price_target_accuracy.R) :
 
 {% highlight r %}
 require("ggplot2")
-dat2<- read.csv(file="quarterly_stock_data.csv",head=TRUE,sep=",")
-ggplot(dat2, aes(x=dat2$ProjectedGrowth, y=dat2$ActualGrowth)) + geom_point(shape=1,size=.6,color="steelblue") + 
+df <- read.csv(file="quarterly_stock_data.csv",head=TRUE,sep=",")
+ggplot(df, aes(x=df$ProjectedGrowth, y=df$ActualGrowth)) + 
+  geom_point(shape=1,size=.6,color="steelblue") +
   ylim(-1,2) + xlim(-1,2) +
-  xlab("Projected") + ylab("Actual") + theme(
-    panel.background = element_rect(fill = "transparent",colour = NA), 
-    panel.grid.minor = element_blank(), 
+  xlab("Projected") + ylab("Actual") + 
+  theme(
+    panel.background = element_rect(fill = "transparent",colour = NA),
+    panel.grid.minor = element_blank(),
     panel.grid.major = element_blank(),
     plot.background = element_rect(fill = "transparent",colour = NA)
   )
