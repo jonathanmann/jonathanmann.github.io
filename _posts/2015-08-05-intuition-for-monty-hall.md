@@ -26,7 +26,7 @@ class MontyHall:
         """
         Initialize game
 
-        @param doors : an int used to generate the doors list from one up to the input number (must be at least 2).
+		@param doors : an int used to generate the doors list from one up to the input number (must be at least 2).
 		@param change : a boolean to determine whether to stay with the original door pick
         """
         self.doors = [x for x in xrange(1,doors + 1)]
