@@ -13,7 +13,7 @@ Although there are many excellent explanations for why the it is always a [bette
 
 ### Simulation 
 
-The code for the [simulation in Python]](https://github.com/jonathanmann/blog_examples/blob/master/Python/monty_hall/monty_hall.py) :
+The code for the [simulation in Python](https://github.com/jonathanmann/blog_examples/blob/master/Python/monty_hall/monty_hall.py) :
 
 {% highlight py %}
 from random import randint
@@ -26,8 +26,8 @@ class MontyHall:
         """
         Initialize game
 
-		@param doors : an int used to generate the doors list from one up to the input number (must be at least 2).
-		@param change : a boolean to determine whether to stay with the original door pick
+        @param doors : an int used to generate the doors list from one up to the input number (must be at least 2).
+        @param change : a boolean to determine whether to stay with the original door pick
         """
         self.doors = [x for x in xrange(1,doors + 1)]
         self.change = change
