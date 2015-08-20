@@ -15,7 +15,7 @@ When I'm using GVim, I prefer to use the solarized theme, but that colorscheme r
 
 Here is the snipit from my [.vimrc](https://github.com/jonathanmann/vim_config/blob/master/.vimrc) that does what we want:
 
-{% highlight sh %}
+{% highlight vim %}
 if has('gui_running')
     " GUI colors
     set background=dark 
