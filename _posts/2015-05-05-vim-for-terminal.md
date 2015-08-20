@@ -24,7 +24,6 @@ else
     " Non-GUI (terminal) colors
     set t_Co=256
     colorscheme spacegray 
-   
 endif
 {% endhighlight %}
 
