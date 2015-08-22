@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Basic Machine Learning Overview
-image: http://jonathanmann.github.io/public/img/ml3.png
+image: http://jonathanmann.github.io/public/img/ml2.png
 excerpt: There are some really good tools for machine learning out there. Every popular language has them. Most of the existing toolkits will have all of the algorithms mentioned here plus a lot more. If you're comfortable with Python, I suggest starting with [scikit learn](http://scikit-learn.org/stable/) since it has a standard interface for all of its machine learning techniques.  
 ---
 
