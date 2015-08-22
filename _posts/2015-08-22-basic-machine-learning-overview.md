@@ -26,10 +26,10 @@ Whichever algorithm you choose, the setup will be pretty much the same. First, y
 ### Example 
 
 {% highlight py %}
-from prepared_data import preprocess
+from prepared_data import prepdata
 from sklearn.neighbors.nearest_centroid import NearestCentroid
 from sklearn.metrics import accuracy_score
-features_train, features_test, labels_train, labels_test = preprocess()
+features_train, features_test, labels_train, labels_test = prepdata()
 clf = NearestCentroid()
 clf.fit(features_train, labels_train)
 pred = clf.predict(features_test)
@@ -40,5 +40,7 @@ print accuracy_score(labels_test, pred)
 ### Links for Other Beginner Machine Learning Techniques
 
 [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+
 [Support Vector Machines](https://en.wikipedia.org/wiki/Support_vector_machine)
+
 [Decision Tree Learning](https://en.wikipedia.org/wiki/Decision_tree_learning)
