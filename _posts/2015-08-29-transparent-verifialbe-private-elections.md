@@ -19,7 +19,7 @@ As a demonstration, I created a [PostgreSQL database](https://github.com/jonatha
 
 In this example, suppose a voter casts a vote for the Neutral party and receives a confirmation card with the following information :
 
-[ ID : 2B182210-64CC-48AD-9022-DFA702A6C641 | VOTE : NEUTRAL PARTY ]
+2B182210-64CC-48AD-9022-DFA702A6C641 | NEUTRAL PARTY
 
 Later, when the election results are released, the voter can look up the unique identifier from the confirmation card and verify that the vote was accounted for accurately.
 
