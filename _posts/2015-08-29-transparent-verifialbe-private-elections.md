@@ -50,7 +50,7 @@ ORDER BY CNT DESC
 
 ![election_results](http://jonathanmann.github.io/public/img/election_results.png)
 
-Finally, anyone interested in viewing the raw results of the election, could easily do so in [tabular form](https://github.com/jonathanmann/blog_examples/blob/master/PostgreSQL/election_model/election_data.sql).
+Finally, anyone interested in viewing the raw results of the election could easily do so in [tabular form](https://github.com/jonathanmann/blog_examples/blob/master/PostgreSQL/election_model/election_data.sql).
 
 {% highlight sql %}
 SELECT B.ID, T.DESCRIPTION
