@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modeling a Verifiable Voting System that Protects Privacy
+title: Modeling Verifiable Voting that Protects Privacy
 image: http://jonathanmann.github.io/public/img/ballot.png
 excerpt: Technology has made it possible to design an election system that is both transparent and verifiable, but still protects the privacy of the ballot box.   
 ---
