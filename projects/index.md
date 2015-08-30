@@ -6,7 +6,7 @@ title: Projects
 ### Open Source Projects
 
 #### Building Tools for Democracy
-I'm very interested in contributing to the construction of tools that will help create a more just and transparent democracy. One tool that I think could do tremendous good across the world is an election system that is both transparent and verifiable while still preserving voter privacy. I wrote more about this in the post [Modeling Verifiable Voting that Protects Privacy](http://jonathanmann.github.io/2015/08/29/transparent-verifialbe-private-elections/].
+I'm very interested in contributing to the construction of tools that will help create a more just and transparent democracy. One tool that I think could do tremendous good across the world is an election system that is both transparent and verifiable while still preserving voter privacy. I wrote more about this in the post [Modeling Verifiable Voting that Protects Privacy](http://jonathanmann.github.io/2015/08/29/transparent-verifialbe-private-elections/).
 
 
 ### Proprietary Projects
