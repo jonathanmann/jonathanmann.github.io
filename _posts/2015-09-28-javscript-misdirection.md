@@ -9,7 +9,7 @@ Recently, [Peter Jaric](https://twitter.com/peterjaric/) hosted a [Javascript mi
 
 ![evilpad](http://jonathanmann.github.io/public/img/evilpad.png)
 
-I decided that it would be good practice for me to try to get inside the head of someone who writes malicious code so that I could get better at watching out for it since I frequently experiment with obscure open source projects by authors of unknown repute.
+I decided that it would be good practice for me to try to get inside the head of a malicious coder, so that I could get better at watching out for it since I frequently experiment with obscure open source projects by authors of unknown repute.
 
 ### Contest Entry
 
@@ -53,4 +53,6 @@ var validate = function(key,index){
 }
 {% endhighlight %}
 
+
+Although many of the contest entries were far more advanced than my own, I found the competition to be an engaging exercise. Check out the [winning submission](http://jsfiddle.net/c6z0kb4g/0/) and Peter Jaric's [analysis of the competition](http://javahacker.com/the-first-javascript-misdirection-contest/). 
 
