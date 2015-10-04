@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Modeling the Monty Hall Problem with Python 
+title: Modeling the Monty Hall Problem with Python
+comments: true
 image: http://jonathanmann.github.io/public/img/monty_hall.png
 excerpt: At first glance, the Monty Hall problem can seem counterintuitive, but, when viewed from the correct perspective, the appropriate strategy becomes abundantly apparent.  
 ---

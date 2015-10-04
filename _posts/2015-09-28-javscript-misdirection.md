@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spotting Malicious Code Hidden in Plain Sight
+comments: true
 image: http://jonathanmann.github.io/public/img/evilpad.png
 excerpt: Recently, Peter Jaric hosted a Javascript misdirection contest where contestants attempted to write elegant code to surreptitiously pass a generated key to a remote server. The trick of the contest, however, was to hide the malicious code in plain sight. 
 ---

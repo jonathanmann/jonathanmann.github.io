@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Verifiable Election System Demo
+comments: true
 image: http://jonathanmann.github.io/public/img/voting_system_frontend.png
 excerpt: In an earlier post, we looked at the mechanics behind creating an election system where the results could be verified by any third party while still protecting voter privacy. In this post, we'll look at a demo implementation of a user interface for this system.
 ---

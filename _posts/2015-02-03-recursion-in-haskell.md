@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Understanding Recursion in Haskell
+comments: true
 image: http://jonathanmann.github.io/public/img/recursion_tree.png
 excerpt: To understand how recursion works, let's walk through a simple example step by step. As a learning tool, we'll create a simple function that raises the number two to a the power of whatever number is given as input. Let's take a look at the implemenation to get a better idea of how the process works.
 ---
