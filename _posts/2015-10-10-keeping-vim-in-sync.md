@@ -35,10 +35,10 @@ Plugin 'tpope/vim-fugitive'
 call vundle#end()            " required
 {% endhighlight %}
 
-With Vundle, you can easily manage all of your plugins in one convenient location, and, if you add a new plugin in one environment, when you pull your .vimrc in your other environments and run  
+With Vundle, you can easily manage all of your plugins in one convenient location, and, if you add a new plugin in one environment, when you pull your .vimrc into your other environments and run  
 
 {% highlight vim %}
-PluginInstall
+:PluginInstall
 {% endhighlight %}
 
-, the plugins you added in your other environments will be automatically installed on your current environment.
+in the ex line, the plugins you added in your other environments will be automatically installed on your current environment.
