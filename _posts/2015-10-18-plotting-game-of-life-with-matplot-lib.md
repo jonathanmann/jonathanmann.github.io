@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plotting Conway's Game of Life with Matplotlib
+title: Visualizing Conway's Game of Life with Matplotlib
 comments: true
 image: https://cdn.rawgit.com/jonathanmann/blog_examples/master/Python/game_of_life/output/gameoflife.gif
 excerpt: While working through practice problems on leetcode, I encountered a problem I hadn't seen for a while, Conway's Game of Life. After implementing the solution, I decided it would be interesting to take it a step further and generate graphics to display the game.
@@ -38,11 +38,11 @@ def finish_update(self):
             self.board[i][j] = self.update_rules[self.board[i][j]]
 {% endhighlight %}
 
-### Adding Output Visualization with Matplotlib
+### Adding Output Visualization with matplotlib
 
-With transition and ending game boards now being generated for each round of play, we can generate interesting visualizations with Matplotlib easily.
+With transition and ending game boards now being generated for each round of play, we can generate interesting visualizations with matplotlib easily.
 
-First, we need to import Matplotlib. I also suggest turning off the axis labels for this type of plot.
+First, we need to import matplotlib. I also suggest turning off the axis labels for this type of visualization.
 
 {% highlight py %}
 import matplotlib as mpl
