@@ -3,10 +3,10 @@ layout: post
 title: Data Wrangling with PostgreSQL
 comments: true
 image: http://jonathanmann.github.io/public/img/pg_query.png
-excerpt: Wrangling raw data into well normalized, efficiently queryable tables in PostgreSQL can be challenging, especially for those with limited prior SQL exposure. In this tutorial, I've created a step by step guide to walk you through the process of munging and normalizing (unreliable) data about famous people from a practice data set.
+excerpt: Wrangling raw data into well normalized, efficiently queryable tables in PostgreSQL can be challenging, especially for those with limited prior SQL exposure. In this tutorial, I've created a step by step guide to walk you through the process of munging and normalizing data about famous people from a practice data set.
 ---
 
-Wrangling raw data into well normalized, efficiently queryable tables in PostgreSQL can be challenging, especially for those with limited prior SQL exposure. In this tutorial, I've created a step by step guide to walk you through the process of munging and normalizing (unreliable) data about famous people from a practice data set. 
+Wrangling raw data into well normalized, efficiently queryable tables in PostgreSQL can be challenging, especially for those with limited prior SQL exposure. In this tutorial, I've created a step by step guide to walk you through the process of munging and normalizing data about famous people from a practice data set. 
 
 ![PostgreSQL](http://jonathanmann.github.io/public/img/pg_query.png)
 
@@ -108,8 +108,16 @@ The fields in our raw_data table are all attributes of a person, so it makes sen
 
 Before we create a "person" table, however, the raw_data table has two columns that look like good candidates for further normalization as ancillary tables:
 
- # nationality
- # occupation
+<table>
+  <tbody>
+    <tr>
+      <td>nationality</td>
+	</tr>
+    <tr>
+      <td>occupation</td>
+	</tr>
+  </tbody>
+</table>
 
 The reason that we want to factor these attributes out into separate tables is that, when properly normalized, we can make attribute updates in a single place as opposed to applying updates across the entirety one or more tables. 
 
