@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            Jonathan Mann
 tagline:          
 url:              http://jonathanmann.github.io/
-paginate:         1
+paginate:         5
 baseurl:          /
 author:
   name:           Jonathan Mann
