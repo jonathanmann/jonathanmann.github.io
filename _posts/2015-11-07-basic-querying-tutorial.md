@@ -6,7 +6,7 @@ image: http://jonathanmann.github.io/public/img/vim_query.png
 excerpt: In the previous post, we looked at data normalization in PostgreSQL. In this tutorial, we'll expand on our work to write queries that answer questions about the data. 
 ---
 
-In the [previous post](http://jonathanmann.github.io/2015/10/23/sql-normalization-tutorial/):, we looked at data normalization in PostgreSQL. In this tutorial, we'll expand on our work to write queries that answer questions about the data. 
+In the [previous post](http://jonathanmann.github.io/2015/10/23/sql-normalization-tutorial/), we looked at data normalization in PostgreSQL. In this tutorial, we'll expand on our work to write queries that answer questions about the data. 
 
 ![PostgreSQL](http://jonathanmann.github.io/public/img/vim_query.png)
 
@@ -35,9 +35,9 @@ Here are the results of our query:
     <tr>
       <th>id</th>
       <th>name</th>
-      <th>nationality_id</th>
-      <th>occupation_id</th>
-      <th>estimated_iq_score</th>
+      <th>n_id</th>
+      <th>o_id</th>
+      <th>e_iq</th>
       <th>o.id</th>
       <th>o.name</th>
       <th>n.id</th>
