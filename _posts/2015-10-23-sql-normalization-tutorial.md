@@ -10,7 +10,7 @@ Wrangling raw data into well normalized, efficiently queryable tables in Postgre
 
 ![PostgreSQL](http://jonathanmann.github.io/public/img/pg_query.png)
 
-Before starting, please download and import [this practice database](https://github.com/jonathanmann/blog_examples/tree/master/PostgreSQL/famous_people) into PostgreSQL.
+Before starting, please download and import [this practice database](https://github.com/jonathanmann/blog_examples/tree/master/PostgreSQL/famous_people/famous_people.backup?raw=true) into PostgreSQL.
 
 ### Eliminating Anomalies
 
