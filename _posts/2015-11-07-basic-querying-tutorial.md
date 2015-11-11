@@ -302,7 +302,8 @@ SELECT avg(estimated_iq_score) FROM famous_people  WHERE occupation = 'politicia
 For this question, we will need to write a query to group the results together by occupation and apply the averge aggregator to the estimated_iq_score column. We will want to alias the column so that we can use it for sorting. 
 
 {% highlight sql %}
-SELECT occupation, avg(estimated_iq_score) e_avg_iq FROM famous_people
+SELECT occupation, avg(estimated_iq_score) e_avg_iq 
+FROM famous_people
 GROUP BY occupation
 ORDER BY e_avg_iq DESC
 {% endhighlight %}
