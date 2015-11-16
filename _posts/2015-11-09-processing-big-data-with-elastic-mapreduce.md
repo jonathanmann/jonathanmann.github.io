@@ -28,4 +28,4 @@ hadoop-streaming -files s3://elasticmapreduce/samples/wordcount/wordSplitter.py 
 
 ### Conclusion
 
-I really like, DigitalOcean and will continue using it for most of my IaaS needs, but EMR allows me to focus on the parts of MapReduce that I actually want to work on: writing the mapper and reducer. Interestingly, one of the sample jobs provided by AWS was almost exactly what my friend needed. EMR is my new goto option for running big data jobs.
+I really like DigitalOcean and will continue using it for most of my IaaS needs, but EMR allows me to focus on the parts of MapReduce that I actually want to work on: writing the mapper and reducer. Interestingly, one of the sample jobs provided by AWS was almost exactly what my friend needed. EMR is my new goto option for running big data jobs.
