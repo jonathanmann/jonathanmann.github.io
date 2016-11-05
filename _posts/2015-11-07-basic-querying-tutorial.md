@@ -297,7 +297,7 @@ I almost didn't want to include this question because we would almost never want
 SELECT avg(estimated_iq_score) FROM famous_people  WHERE occupation = 'politician'
 {% endhighlight %}
 
-##### Which occupation in this dataset has the second highest estimated IQ score occupation on average?
+##### Which occupation in this dataset has the second highest estimated IQ score on average?
 
 For this question, we will need to write a query to group the results together by occupation and apply the averge aggregator to the estimated_iq_score column. We will want to alias the column so that we can use it for sorting. 
 
