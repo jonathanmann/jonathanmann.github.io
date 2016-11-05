@@ -3,17 +3,19 @@ layout: post
 title: Examining Prediction Market Anomalies
 comments: true
 image: http://jonathanmann.github.io/public/img/prediction_markets.png
-excerpt: Market inefficiencies can be difficult to identify and are usually competed away quickly but, prediction market trading restrictions can cause anomalies to occuring frequently.
+excerpt: Market inefficiencies can be difficult to identify and are usually competed away quickly but, prediction market trading restrictions can cause anomalies to occur frequently.
  
 ---
 
-Market inefficiencies can be difficult to identify and are usually competed away quickly but, prediction market trading restrictions can cause anomalies to occuring frequently.
+Market inefficiencies can be difficult to identify and are usually competed away quickly but, prediction market trading restrictions can cause anomalies to occur frequently.
 
 ![PredictionMarket](http://jonathanmann.github.io/public/img/prediction_markets.png)
 
-### Loophole?
+### Loophole in the Betting Market?
 
 The situation shown above should never exist in an efficient, competitive market. For example, ignoring transaction costs, if a speculator took a position against every candidate, it would be impossible to lose. 
+
+On the prediction market [PredictIt](https://www.predictit.org/) however, this kind of anomaly is a regular occurrence.
 
 This table shows the breakdown of how much would be earned in the case of each candidate winning (and consequentially, the other candidates losing) assuming that bets were placed against all the candidates shown.
 
