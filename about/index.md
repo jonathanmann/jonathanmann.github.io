@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![ScreenShot](../public/img/profile.jpg)
+![ScreenShot](http://jonathanmann.github.io/public/img/profile.jpg)
 
 
 I grew up in [Jericho, Vermont](http://www.jerichovt.gov/), graduated from [SUNY New Paltz](http://www.newpaltz.edu/) in Economics, and, in late 2009, married Ruolin (Sarah) Cui in Boston, Massachusetts.
