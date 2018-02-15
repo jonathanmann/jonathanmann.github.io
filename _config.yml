@@ -5,18 +5,18 @@ permalink:        pretty
 # Setup
 title:            Jonathan Mann
 tagline:          
-url:              http://jonathanmann.github.io/
+url:              https://jonathanmann.github.io/
 paginate:         1
 baseurl:          /
 author:
   name:           Jonathan Mann
-  url:            http://jonathanmann.github.io/
+  url:            https://jonathanmann.github.io/
   email:          mann17@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           http://jonathanmann.github.io/
+  repo:           https://jonathanmann.github.io/
 
 pages_list:       
   About: '/about'
