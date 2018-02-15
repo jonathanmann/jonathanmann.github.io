@@ -2,7 +2,7 @@
 layout: post
 title: Price Targets a Poor Predictor of Performance
 comments: true
-image: https://jonathanmann.github.io/public/img/current_v_target_pred.png
+image: http://jonathanmann.github.io/public/img/current_v_target_pred.png
 excerpt: In order to determine the relationship between consensus price targes and stock performance, I decided to measure the accuracy of predictions made from 2013 to the first two quarters of 2014 against the actual results from the matching quarter of the following year.  
 ---
 
@@ -10,7 +10,7 @@ In order to determine the relationship between consensus price targes and stock 
 
 ### Visualization 
 
-![price_target_accuracy](https://jonathanmann.github.io/public/img/price_target_accuracy.png) 
+![price_target_accuracy](http://jonathanmann.github.io/public/img/price_target_accuracy.png) 
 
 The [code for the visualization in R](https://github.com/jonathanmann/blog_examples/blob/master/R/price_target_accuracy/price_target_accuracy.R) :
 
@@ -33,7 +33,7 @@ ggplot(df, aes(x=df$ProjectedGrowth, y=df$ActualGrowth)) +
 
 Originally, I had expected to see a visible correlation between the predictions and the results, but the visualization of this relationship shows just how wrong my anticipation was. I decided to see if limiting the sample to stocks from the S&P500 with a narrow prediction window would improve the accuracy. I'll leave the final interpretation to you, but, to me, the results look pretty random.
 
-![sp_target_accuracy](https://jonathanmann.github.io/public/img/sp_target_accuracy.png) 
+![sp_target_accuracy](http://jonathanmann.github.io/public/img/sp_target_accuracy.png) 
 
 {% highlight r %}
 require("ggplot2")
@@ -51,7 +51,7 @@ ggplot(dat2, aes(x=dat2$ProjectedGrowth, y=dat2$ActualGrowth)) + geom_point(shap
 
 To satisfy my curiosity, I decided to compare the predictive power of the consensus price targets against a the hypothesis that the stock price would remain exactly the same as when the initial observation was made for stocks in the S&P 500.
 
-![current_v_target](https://jonathanmann.github.io/public/img/current_v_target_pred.png) 
+![current_v_target](http://jonathanmann.github.io/public/img/current_v_target_pred.png) 
 
 It appears that, for this time period, assuming no change whatsoever would have been a better prediction. My interpretation of these results is not that price targets are useless, but rather that external and unpredictable market forces have far more influence over the performance of a stock.
 

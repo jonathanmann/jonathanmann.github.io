@@ -2,13 +2,13 @@
 layout: post
 title: Configuring Vim for Use in the Terminal
 comments: true
-image: https://jonathanmann.github.io/public/img/vim_for_terminal.png
+image: http://jonathanmann.github.io/public/img/vim_for_terminal.png
 excerpt: GVim is great for a local machine, but sometimes it isn't possible to use when working on a remote server. Never fear, with the right configuration, Vim can look just as great even when it is running in terminal mode. 
 ---
 
 GVim is great for a local machine, but sometimes it isn't possible to use when working on a remote server. Never fear, with the right configuration, Vim can look just as great even when it is running in terminal mode.
 
-![candy_man](https://jonathanmann.github.io/public/img/vim_for_terminal.png)
+![candy_man](http://jonathanmann.github.io/public/img/vim_for_terminal.png)
 
 ### Configuration
 

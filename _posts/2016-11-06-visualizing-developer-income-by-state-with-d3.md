@@ -2,14 +2,14 @@
 layout: post
 title: Visualizing Developer Income by State with D3
 comments: true
-image: https://jonathanmann.github.io/public/img/developer_income_by_state.png
+image: http://jonathanmann.github.io/public/img/developer_income_by_state.png
 excerpt: The average salary for developers varies widely across the United States from $129K/year in DC to $63K/year in Hawaii according to salary data from Indeed. Using D3 to create a choropleth map, we can quickly see which states have the most lucrartive tech opportunites.
  
 ---
 
 The average salary for developers varies widely across the United States from $129K/year in DC to $63K/year in Hawaii according to salary data from Indeed. Using D3 to create a choropleth map, we can quickly see which states have the most lucrartive tech opportunites.
 
-![HEAT_MAP_DEVELOPER_SALARY_BY_STATE](https://jonathanmann.github.io/public/img/developer_income_by_state.png)
+![HEAT_MAP_DEVELOPER_SALARY_BY_STATE](http://jonathanmann.github.io/public/img/developer_income_by_state.png)
 
 ### Live Implementation
 You can view a live implementation of this visualization [here](https://cdn.rawgit.com/jonathanmann/blog_examples/master/Javascript/d3/developer_income_by_state/index.html). The source code is available [here](https://github.com/jonathanmann/blog_examples/tree/master/Javascript/d3/developer_income_by_state).

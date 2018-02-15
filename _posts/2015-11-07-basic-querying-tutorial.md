@@ -2,13 +2,13 @@
 layout: post
 title: Basic Querying with PostgreSQL
 comments: true
-image: https://jonathanmann.github.io/public/img/vim_query.png
+image: http://jonathanmann.github.io/public/img/vim_query.png
 excerpt: In the previous post, we looked at data normalization in PostgreSQL. In this tutorial, we'll expand on our work to write queries that answer questions about the data. 
 ---
 
-In the [previous post](https://jonathanmann.github.io/2015/10/23/sql-normalization-tutorial/), we looked at data normalization in PostgreSQL. In this tutorial, we'll expand on our work to write queries that answer questions about the data. 
+In the [previous post](http://jonathanmann.github.io/2015/10/23/sql-normalization-tutorial/), we looked at data normalization in PostgreSQL. In this tutorial, we'll expand on our work to write queries that answer questions about the data. 
 
-![PostgreSQL](https://jonathanmann.github.io/public/img/vim_query.png)
+![PostgreSQL](http://jonathanmann.github.io/public/img/vim_query.png)
 
 This tutorial uses a database of famous people. I make no claims about the reliability of the data, however, the information in the database will be very useful for the purposes of this tutorial. The main table is called [person] which which depends on data in two ancillary tables, [occupation] and [nationality].
 

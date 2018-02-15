@@ -2,7 +2,7 @@
 layout: post
 title: Understanding Recursion in Haskell
 comments: true
-image: https://jonathanmann.github.io/public/img/recursion_tree.png
+image: http://jonathanmann.github.io/public/img/recursion_tree.png
 excerpt: To understand how recursion works, let's walk through a simple example step by step. As a learning tool, we'll create a simple function that raises the number two to a the power of whatever number is given as input. Let's take a look at the implemenation to get a better idea of how the process works.
 ---
 
@@ -21,7 +21,7 @@ r_two_to_power n = r_two_to_power (n-1) + r_two_to_power (n-1)
 ### Visualization
 
 To get a clearer picture of what is going on, consider the diagram below:
-![recursion_tree](https://jonathanmann.github.io/public/img/recursion_tree.png)
+![recursion_tree](http://jonathanmann.github.io/public/img/recursion_tree.png)
 With the exception of the nodes that satisfy the base case and return the value 1, each node has two child nodes. The return value of the parent node is the sum of the return values of its children. At the base of the pyramid, where each node receives the value of 0 as input satisfying the base case, the sum of the return values for the eight nodes is 8 since each node returns the value 1. 
 
 In the next level up, where each node has an input value of 1, the return value is sum of its child nodes, so each of the four nodes on this level has a return value of 2.

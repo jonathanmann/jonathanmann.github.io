@@ -2,13 +2,13 @@
 layout: post
 title: Processing Big Data with Elastic MapReduce
 comments: true
-image: https://jonathanmann.github.io/public/img/emr_cluster.png
+image: http://jonathanmann.github.io/public/img/emr_cluster.png
 excerpt: A few years ago, setting up a Hadoop cluster was a painstaking challenge, especially with ever shifting dependencies and documentation that was usually not quite up-to-date. Today things are easier, but, even now, setting up a cluster is no small task. Recently, however, I ran some experiments with Amazon's Elastic MapReduce (EMR) and the entire process was swift and painless.
 ---
 
 A few years ago, setting up a Hadoop cluster was a painstaking challenge, especially with ever shifting dependencies and documentation that was usually not quite up-to-date. Today things are easier, but, even now, setting up a cluster is no small task. Recently, however, I ran some experiments with [Amazon's Elastic MapReduce (EMR)](https://aws.amazon.com/elasticmapreduce/), and the entire process was swift and painless. 
 
-![EMR](https://jonathanmann.github.io/public/img/emr_cluster.png)
+![EMR](http://jonathanmann.github.io/public/img/emr_cluster.png)
 
 ### Data Wrangling Challenge
 

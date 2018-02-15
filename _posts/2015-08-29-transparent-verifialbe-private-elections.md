@@ -2,7 +2,7 @@
 layout: post
 title: Modeling Verifiable Voting that Protects Privacy
 comments: true
-image: https://jonathanmann.github.io/public/img/ballot.png
+image: http://jonathanmann.github.io/public/img/ballot.png
 excerpt: Technology has made it possible to design an election system that is both transparent and verifiable, but still protects the privacy of the ballot box.   
 ---
 
@@ -10,7 +10,7 @@ Technology has made it possible to design an election system that is both transp
 
 ### Description
 
-![ballot](https://jonathanmann.github.io/public/img/ballot.png)
+![ballot](http://jonathanmann.github.io/public/img/ballot.png)
 
 The system works by generating a unique identifier for each of the voter's descisions. After the voting is complete, the voter receives a perforated printout with their unique identifiers on one side, and the candidates they selected on the other. When the results of the election are released, the each voter can indepently verify that the identifiers corresponding to their votes are matched to the appropriate candidates. 
 
@@ -33,7 +33,7 @@ INNER JOIN TICKET T ON B.TICKET_ID = T.ID
 WHERE B.ID = '2B182210-64CC-48AD-9022-DFA702A6C641'
 {% endhighlight %}
 
-![verification](https://jonathanmann.github.io/public/img/vote_verification.png)
+![verification](http://jonathanmann.github.io/public/img/vote_verification.png)
 
 
 With the free availablity of the election results database, anyone with basic SQL knowledge could [verify the results of the election](https://github.com/jonathanmann/blog_examples/blob/master/PostgreSQL/election_model/election_tally.sql) .
@@ -49,7 +49,7 @@ GROUP BY DESCRIPTION
 ORDER BY CNT DESC
 {% endhighlight %}
 
-![election_results](https://jonathanmann.github.io/public/img/election_results.png)
+![election_results](http://jonathanmann.github.io/public/img/election_results.png)
 
 Finally, anyone interested in viewing the raw results of the election could easily do so in [tabular form](https://github.com/jonathanmann/blog_examples/blob/master/PostgreSQL/election_model/election_data.sql).
 
@@ -59,4 +59,4 @@ FROM BALLOT B
 INNER JOIN TICKET T ON B.TICKET_ID = T.ID
 {% endhighlight %}
 
-![election_data](https://jonathanmann.github.io/public/img/election_data.png)
+![election_data](http://jonathanmann.github.io/public/img/election_data.png)

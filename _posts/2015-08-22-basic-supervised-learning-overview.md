@@ -2,7 +2,7 @@
 layout: post
 title: Basic Supervised Learning Overview
 comments: true
-image: https://jonathanmann.github.io/public/img/ml2.png
+image: http://jonathanmann.github.io/public/img/ml2.png
 excerpt: There are some really good tools for supervised learning out there. Every popular language has them. Most of the existing toolkits will have all of the algorithms mentioned here plus a lot more. If you're comfortable with Python, I suggest starting with scikit learn since it has a standard interface for all of its machine learning techniques.  
 ---
 
@@ -12,11 +12,11 @@ There are some really good tools for supervised learning out there. Every popula
 
 Machine learning is about making predictions based on pattern recognition. As an example, suppose we wanted to predict whether the dot marked in red belongs with the blue group or the grey group.
 
-![ml1](https://jonathanmann.github.io/public/img/ml1.png)
+![ml1](http://jonathanmann.github.io/public/img/ml1.png)
 
 There are many ways to make a prediction as to the appropriate classification for this dot, but perhaps one of the simplest machine learning techniques is the [k-Nearest Neighbors algorithm](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm). K-Nearest Neighbors is prediction based on the weighted values of other observations with predictive attributes that are close to that of the item in question. The k can represent any number of observation which can be averaged together to make the final prediction. For this example, let's use a k value of 5.  
 
-![ml3](https://jonathanmann.github.io/public/img/ml3.png)
+![ml3](http://jonathanmann.github.io/public/img/ml3.png)
 
 For the point we're trying to identify, 4 / 5 of the nearest neighbors belong to the grey classification, so it is very likely that the correct classification for this point should also be grey. In order to be confident in the predictive power of our model, however, we would first want to test our prediction accuracy on data that we already know the classification for. 
 

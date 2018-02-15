@@ -2,13 +2,13 @@
 layout: post
 title: Data Wrangling with PostgreSQL
 comments: true
-image: https://jonathanmann.github.io/public/img/pg_query.png
+image: http://jonathanmann.github.io/public/img/pg_query.png
 excerpt: Wrangling raw data into well normalized, efficiently queryable tables in PostgreSQL can be challenging, especially for those with limited prior SQL exposure. In this tutorial, I've created a step by step guide to walk you through the process of munging and normalizing data about famous people from a practice data set.
 ---
 
 Wrangling raw data into well normalized, efficiently queryable tables in PostgreSQL can be challenging, especially for those with limited prior SQL exposure. In this tutorial, I've created a step by step guide to walk you through the process of munging and normalizing data about famous people from a practice data set. 
 
-![PostgreSQL](https://jonathanmann.github.io/public/img/pg_query.png)
+![PostgreSQL](http://jonathanmann.github.io/public/img/pg_query.png)
 
 Before starting, please download and import [this practice database](https://github.com/jonathanmann/blog_examples/tree/master/PostgreSQL/famous_people/famous_people.backup?raw=true) into PostgreSQL.
 

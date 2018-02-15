@@ -2,14 +2,14 @@
 layout: post
 title: Examining Prediction Market Anomalies
 comments: true
-image: https://jonathanmann.github.io/public/img/prediction_markets.png
+image: http://jonathanmann.github.io/public/img/prediction_markets.png
 excerpt: Market inefficiencies can be difficult to identify and are usually competed away quickly but, prediction market trading restrictions can cause anomalies to occur frequently.
  
 ---
 
 Market inefficiencies can be difficult to identify and are usually competed away quickly but, prediction market trading restrictions can cause anomalies to occur frequently.
 
-![PredictionMarket](https://jonathanmann.github.io/public/img/prediction_markets.png)
+![PredictionMarket](http://jonathanmann.github.io/public/img/prediction_markets.png)
 
 ### Loophole in the Betting Market?
 
