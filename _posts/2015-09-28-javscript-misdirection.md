@@ -2,13 +2,13 @@
 layout: post
 title: Spotting Malicious Code Hidden in Plain Sight
 comments: true
-image: http://jonathanmann.github.io/public/img/evilpad.png
+image: https://jonathanmann.github.io/public/img/evilpad.png
 excerpt: Recently, Peter Jaric hosted a Javascript misdirection contest where contestants attempted to write elegant code to surreptitiously pass a generated key to a remote server. The trick of the contest, however, was to hide the malicious code in plain sight. 
 ---
 
 Recently, [Peter Jaric](https://twitter.com/peterjaric/) hosted a [Javascript misdirection contest](http://misdirect.ion.land/) where contestants attempted to write elegant code to surreptitiously pass a generated key to a remote server. The trick of the contest, however, was to hide the malicious code in plain sight. 
 
-![evilpad](http://jonathanmann.github.io/public/img/evilpad.png)
+![evilpad](https://jonathanmann.github.io/public/img/evilpad.png)
 
 I decided that it would be good practice for me to try to get inside the head of a malicious coder, so that I could get better at watching out for it since I frequently experiment with obscure open source projects by authors of unknown repute.
 

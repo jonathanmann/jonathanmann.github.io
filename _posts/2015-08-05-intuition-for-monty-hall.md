@@ -2,13 +2,13 @@
 layout: post
 title: Modeling the Monty Hall Problem with Python
 comments: true
-image: http://jonathanmann.github.io/public/img/monty_hall.png
+image: https://jonathanmann.github.io/public/img/monty_hall.png
 excerpt: At first glance, the Monty Hall problem can seem counterintuitive, but, when viewed from the correct perspective, the appropriate strategy becomes abundantly apparent.  
 ---
 
 At first glance, the Monty Hall problem can seem counterintuitive, but, when viewed from the correct perspective, the appropriate strategy becomes abundantly apparent.
 
-![monty_hall](http://jonathanmann.github.io/public/img/monty_hall.png)
+![monty_hall](https://jonathanmann.github.io/public/img/monty_hall.png)
 
 Although there are many excellent explanations for why the it is always a [better strategy to change doors](https://www.youtube.com/watch?v=ugbWqWCcxrg), after discussing the solution with one of the interns at the office, I thought it might be a handy excercise to write a simulator to model the outcomes for different strategies.
 

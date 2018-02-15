@@ -2,13 +2,13 @@
 layout: post
 title: Syncing Vim Across Different Environments
 comments: true
-image: http://jonathanmann.github.io/public/img/vimrc.png
+image: https://jonathanmann.github.io/public/img/vimrc.png
 excerpt: One of the great things about Vim is that it requires very little customization. For the things that you do want to customize, however, it's really good when you can keep everything in sync across your various environments.
 ---
 
 One of the great things about Vim is that it requires very little customization. For the things that you do want to customize, however, it's really good when you can keep everything in sync across your various environments. 
 
-![vimrc](http://jonathanmann.github.io/public/img/vimrc.png)
+![vimrc](https://jonathanmann.github.io/public/img/vimrc.png)
 
 ### Putting Your Vim Configuration in Version Control
 

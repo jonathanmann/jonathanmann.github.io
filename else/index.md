@@ -14,5 +14,5 @@ title: Else
 [Learn Essential Vim Skills with Drew Neil, author of Practical Vim](http://vimcasts.org/episodes/page/7/)
 
 ### Vim Cheat Sheets
-![BasicVim](http://jonathanmann.github.io/public/img/vim/vi-vim-cheat-sheet.gif)
-![ComplexVim](http://jonathanmann.github.io/public/img/vim/cheatsheet.png)
+![BasicVim](https://jonathanmann.github.io/public/img/vim/vi-vim-cheat-sheet.gif)
+![ComplexVim](https://jonathanmann.github.io/public/img/vim/cheatsheet.png)
