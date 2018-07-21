@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Random Learning Tutorial
+title: Machine Learning Tutorial - Random Learning
 comments: true
 image: https://jonathanmann.github.io/public/img/feature_split.png
 excerpt: The key to understanding machine learning is to break it down to first principles. At its core, machine learning is about automatically making, updating, and validating predictions. While there are many elegant ways to accomplish this, it is helpful to start with a simplified model and build from there.
@@ -71,6 +71,17 @@ After wrangling the data to a form that we can apply the tools of linear algebra
                 self.w = t_w
                 if self.accuracy == 1:
                     break
+{% endhighlight %}
+
+### Results
+{% highlight sh %}
+    ~/data_science_first_principles/ ./RandomLearn.py
+
+    ('prior_accuracy:', 0.5)
+    ('ground_truth:', '[0.17,  0.22,  0,  0.36,  0.27]')
+    ('weights:', array([ 0.3 ,  0.17,  0.02,  0.46,  0.14]))
+    ('accuracy:', 1.0)
+    ('iterations:', 11742)
 {% endhighlight %}
 
 ### Conclusion
