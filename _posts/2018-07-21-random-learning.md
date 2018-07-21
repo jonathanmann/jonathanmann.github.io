@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Machine Learning Tutorial - Random Learning
+title: Random Learning Tutorial
 comments: true
 image: https://jonathanmann.github.io/public/img/feature_split.png
 excerpt: The key to understanding machine learning is to break it down to first principles. At its core, machine learning is about automatically making, updating, and validating predictions. While there are many elegant ways to accomplish this, it is helpful to start with a simplified model and build from there.
