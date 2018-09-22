@@ -2,7 +2,7 @@
 layout: post
 title:  Ethereum Blockchain Tutorial - SmartContracts
 comments: true
-image: https://jonathanmann.github.io/public/img/hashblock.png
+image: https://jonathanmann.github.io/public/img/hashblockpreview.png
 excerpt: SmartContracts may be the most revolutionary application blockchain technology has enabled. SmartContracts allow for the creation of trustless verifiable agreements that can be enforced by the network. Because the rules that govern contract execution are written in code rather than human language, no judge or abitrator is required to enforce the contract. Code is law, and, for better or for worse, once a SmartContract is agreed to, it is forever binding.
 ---
 
@@ -117,9 +117,9 @@ Deploy the contract with the following commands:
 Something like this will appear:
 {% highlight sh %}
     Running migration: 2_deploy_contracts.js
-      HashFactory: 0x82d50ad3c1091866e258fd0f1a7cc9674609d254
+      HashFactory: 0x82d50ad3c1091866e258f...
     Saving successful migration to network...
-      ... 0x68410036257ab41a3a6be1cd61faafc2d8a248bdc04ddce55527518bd0ba9aa5
+      ... 0x68410036257ab41a3a6be1cd61faa...
     Saving artifacts...
 {% endhighlight %}
 
@@ -127,6 +127,29 @@ Grab the address that appears after HashFactory and assign it to an address vari
 {% highlight sh %}
     a = '0x82d50ad3c1091866e258fd0f1a7cc9674609d254'
     c = HashFactory.at(a)
+{% endhighlight %}
+
+In a separate terminal, create a hash of something to store in the blockchain.
+{% highlight sh %}
+    $ echo -n "hello, world" | md5sum
+    e4d7f1b4ed2e42d15898f4b27b019da4  -
+{% endhighlight %}
+
+Use the "createHash" function to store the result in the blockchain.
+{% highlight sh %}
+    truffle(develop)> c.createHash('e4d7f1b4ed2e42d15898f4b27b019da4')
+{% endhighlight %}
+
+Since our storage is zero-indexed and this is the first insertion, this hash can be accessed using the following command:
+{% highlight sh %}
+    truffle(develop)> c.getHash(0)
+    'e4d7f1b4ed2e42d15898f4b27b019da4'
+{% endhighlight %}
+
+The author can also be looked up using the index.
+{% highlight sh %}
+    truffle(develop)> c.getHashAuthor(0)
+    '0x627306090abab3a6e1400e9345bc60c78a8bef57'
 {% endhighlight %}
 
 ### Conclusion
