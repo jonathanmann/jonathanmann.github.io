@@ -13,6 +13,12 @@
     {% endif %}
   </title>
 
+  <script>
+    if (location.protocol != 'https:') {
+      location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+    }
+  </script>
+
   <!-- CSS -->
   <link rel="stylesheet" href="https://jonathanmann.github.io/public/css/poole.css">
   <link rel="stylesheet" href="https://jonathanmann.github.io/public/css/syntax.css">
