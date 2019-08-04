@@ -3,10 +3,12 @@ layout: post
 title: NYU Computer Science Bridge Review 
 comments: true
 image: https://jonathanmann.github.io/public/img/nyu_bridge.png
-excerpt: The [Computer Science Bridge Program at NYU](https://engineering.nyu.edu/academics/programs/bridge-program-nyu-tandon/computer-science-bridge-program) is designed to prepare students without a computer science undergrad for the Computer Science / Cyber Security graduate programs at the Tandon School of Engineering at NYU. Having recently completed the program, I wanted to share my experience.
+excerpt: The Computer Science Bridge Program at NYU is designed to prepare students without a computer science undergrad for the Computer Science / Cyber Security graduate programs at the Tandon School of Engineering at NYU. Having recently completed the program, I wanted to share my experience.
 ---
 
 The [Computer Science Bridge Program at NYU](https://engineering.nyu.edu/academics/programs/bridge-program-nyu-tandon/computer-science-bridge-program) is designed to prepare students without a computer science undergrad for the Computer Science / Cyber Security graduate programs at the Tandon School of Engineering at NYU. Having recently completed the program, I wanted to share my experience.
+
+![BRIDGE](https://jonathanmann.github.io/public/img/nyu_bridge.png)
 
 ### Overview
 The program covers a range of computer science topics from data structures and algorithms to discrete math to networking and operating systems. Basic programming concepts are covered, but I would not recommend this program if you don't have at least some background with programming. The program takes place over 24 weeks, but there is also a 17-week accelerated version available if you're feeling ambitious. To get accepted into the graduate program, you need to complete the bridge program with a B+ which means you'll likely need to outperform about 75% - 80% of your cohort. Admittedly, those aren't good odds, but this is a competitive program.
@@ -30,7 +32,7 @@ Familiarize yourself with the material from [Udacity's Intro to Operating System
 Most of the students who enroll end up dropping out once it becomes apparent that they have no path to be admitted to the graduate program or once they realize how much work is involved (more below in the program experience section). If you have a full-time job, I suggest taking the 24-week program as opposed to the 17-week as the program schedule is demanding.
 
 ### Program Experience
-The workload for the program will vary widely from week to week. Some weeks I spent less than 2 hours in total (by using a browser plugin to speed up the lecture playback and finishing the weekly assignment in about 20 minutes) while others took more than 20. Some of my classmates with less experience told me they spent over 50 hours a week on haverage. 
+The workload for the program will vary widely from week to week. Some weeks I spent less than 2 hours in total (by using a browser plugin to speed up the lecture playback and finishing the weekly assignment in about 20 minutes) while others took more than 20. Some of my classmates with less programming experience told me they spent over 50 hours a week on haverage. 
 
 #### Professors and TAs
 The course has multiple professors and TAs. The TAs have been through the program before and are sympathetic to your situation and are a great resource. As for the professors, it's not their fault, but they have other responsibilities and priorities. Be prepared to practice the material on your own and use the TA office hours and your fellow students when you need help.
