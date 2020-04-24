@@ -7,7 +7,7 @@ excerpt: Contact tracing with isolation can be an effective way to stop or slow 
 ---
 Contact tracing and isolation can be an effective way to stop or slow the spread of an outbreak. In this post, we'll examine a method for determining potentially infected contacts based on a provided trace.
 
-![TRACE](https://jonathanmann.github.io/public/img/contact_trace.png)
+![TRACE](https://jonathanmann.github.io/public/img/contact_tracing.png)
 
 ### Overview
 The image above illustrates a hypothetical scenario where patient zero has several contacts, who, in turn, each have several contacts of their own, and so on. This branching tree of contacts creates our contact trace, an adjacency list of the contacts of each person. In this post, we explore an efficient method for determining the exposure risk to this population based on proximity to patient zero. To carry this out, we create a contact matrix to efficiently determine direct contacts, contacts once removed, and contacts twice removed. The code and sample data for this post is available [here](https://github.com/jonathanmann/blog_examples/tree/master/Python/contact_tracing). 
