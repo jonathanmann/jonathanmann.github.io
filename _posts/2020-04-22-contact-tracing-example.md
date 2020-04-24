@@ -39,12 +39,12 @@ We can use the matrix we created to quickly calculate the degree of separation b
 #### Level 1 -- Direct Contacts: Quarantine
 ![Quarantine](https://raw.githubusercontent.com/jonathanmann/blog_examples/master/Python/contact_tracing/img/Quarantine.png)
 The contact matrix tells us how many paths of length one exist between each person. The first degree of separation (direct contacts) can be seen by simply examining the row of the matrix corresponding to patient zero since everyone in this row had direct contact with patient zero. 
-#### Level 2 -- Contacts once removed: Isolate
+#### Level 2 -- Contacts once removed: Isolation
 ![Isolation](https://raw.githubusercontent.com/jonathanmann/blog_examples/master/Python/contact_tracing/img/Isolation.png)
 As you may recall from math class, squaring the contact matrix tells us how many paths of length two exist between each person. Once again, examining the row corresponding to patient zero reveals our contacts once removed. 
 
-#### Level 3 -- Contacts twice removed: Monitor
-![Monitor](https://raw.githubusercontent.com/jonathanmann/blog_examples/master/Python/contact_tracing/img/Monitor.png)
+#### Level 3 -- Contacts twice removed: Monitoring
+![Monitoring](https://raw.githubusercontent.com/jonathanmann/blog_examples/master/Python/contact_tracing/img/Monitoring.png)
 Similarly, cubing the contact matrix tells us how many paths of length three exist between each person. Again, examining the row corresponding to patient zero, we find many new individuals who should be tested and also see some of our previously detected contacts since there are also paths of length three between them and patient zero.
 
 ### Conclusion
