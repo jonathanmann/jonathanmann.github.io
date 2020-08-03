@@ -5,6 +5,9 @@ title: Projects
 
 ### Open Source Projects
 
+#### Improved Smart Contract Technologies
+I'm not a cryptocurrency guy, but I think there are a lot of exciting opportunities in the blockchain / crypto space, particularly surrounding smart contracts. I created [Grantkey](https://grantkey.com) as a functional prototype for processing peer-to-peer smart contracts via a trusted guarantor as part of a research project for my Advanced Project in Computer Science course. The technology is decentralized in the sense that any mutually trusted third party can serve as the guarantor and any party can verify the legitimacy of the guarantor validation signature making it impossible to undo a validated transaction without having the recipient of the undone transaction be able to prove that the guarantor tampered with the blockchain.
+
 #### Building Tools for Democracy
 I'm very interested in contributing to the construction of tools that will help create a more transparent democracy. One tool that I think could do tremendous good across the world is an election system that is both transparent and verifiable while still preserving voter privacy. I wrote [Modeling Verifiable Voting that Protects Privacy](https://jonathanmann.github.io/2015/08/29/transparent-verifialbe-private-elections/) to provide a simplified model of how a database could be constructed to achieve this result and wrote the post [Verifiable Election System Demo](https://jonathanmann.github.io/2015/10/02/election-system-frontend/) to provide a demonstration of the frontend system using Angular.
 
