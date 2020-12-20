@@ -2,12 +2,12 @@
 layout: post
 title: Thriving in AppSec
 comments: true
-image: https://jonathanmann.github.io/public/img/appsec_logo.png
+image: https://jonathanmann.github.io/public/img/appsec_header.png
 excerpt: For those in the Computer Science / Cyber Security Masters programs at NYU, Application Security (CS 9163) can be among the most challenging as well as the most rewarding experiences of the curriculum. This post is about what to expect from the course and how to prepare for it so that you can get the most out of it.
 ---
 For those in the Computer Science / Cyber Security Masters programs at NYU, Application Security (CS 9163) can be among the most challenging as well as the most rewarding experiences of the curriculum. This post is about what to expect from the course and how to prepare for it so that you can get the most out of it.
 
-![APPSEC](https://jonathanmann.github.io/public/img/appsec_logo.png)
+![APPSEC](https://jonathanmann.github.io/public/img/appsec_header.png)
 
 ### Overview
 Hopefully this post will help you get through Application Security (CS 9163) with minimal bumps and bruises and also help you get the most out of the course. From a practical standpoint, it might just be the best class I've ever taken. The subject matter is extremely useful for real-world problems, and I wish every developer could internalize its lessons. The course material is subject to change from one semester to the next, but the principles should remain constant, so I'll try to write more to the concepts rather than the specific technologies. Still, you should check with the latest syllabus to try to familiarize yourself with the course technologies before signing up for the class. 
