@@ -3,9 +3,9 @@ layout: post
 title: Thriving in AppSec
 comments: true
 image: https://jonathanmann.github.io/public/img/appsec_header.png
-excerpt: For those in the Computer Science / Cyber Security Masters programs at NYU, Application Security (CS 9163) can be among the most challenging as well as the most rewarding experiences of the curriculum. This post is about what to expect from the course and how to prepare for it so that you can get the most out of it.
+excerpt: For those in the Computer Science / Cyber Security Masters programs at NYU, Application Security (CS 9163) can be among the most challenging as well as the most rewarding experiences of the curriculum. This post is about what to expect from the course and how to prepare so that you can get the most out of it.
 ---
-For those in the Computer Science / Cyber Security Masters programs at NYU, Application Security (CS 9163) can be among the most challenging as well as the most rewarding experiences of the curriculum. This post is about what to expect from the course and how to prepare for it so that you can get the most out of it.
+For those in the Computer Science / Cyber Security Masters programs at NYU, Application Security (CS 9163) can be among the most challenging as well as the most rewarding experiences of the curriculum. This post is about what to expect from the course and how to prepare so that you can get the most out of it.
 
 ![APPSEC](https://jonathanmann.github.io/public/img/appsec_header.png)
 
