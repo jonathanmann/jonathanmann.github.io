@@ -16,10 +16,17 @@ Hopefully this post will help you get through Application Security (CS 9163) wit
 Before signing up for the class, there are a few things you'll definitely want to be solid on. If any of the items listed below look unfamiliar, take some time to get comfortable with them. You probably don't need to know everything I've listed below, but the more you know going into the class, the less you'll have to learn as you go.
 
 #### Programming
-First, you really need to feel comfortable programming in any C-family language. You don't need to memorize all the APIs, but if you can only write a program to insert a flat file into a database in python and think it will take more than just a few minutes to write an equivalent program in C or Java, you should probably get some more experience under your belt before signing up for this class. The coding assignments are straight-forward if you know what you're doing, but you need to be able to read and understand code that someone else wrote in a variety of different languages. Getting to this level isn't as hard as it sounds but it does take practice. Once you're comfortable with two or three languages, picking up another should be a piece of cake. If you've only ever used python, go rewrite a simple program you've done before with javascript. See that wasn't so bad, right?
+First, you really need to feel comfortable programming in any C-family language. You don't need to memorize all the APIs, but if you can only write a program to insert a flat file into a database in python and think it will take more than just a few minutes to write an equivalent program in C or Java, you should probably get some more experience under your belt before signing up for this class. The coding assignments are straight-forward if you know what you're doing, but you need to be able to read and understand code that someone else wrote in a variety of different languages. Getting to this level isn't as hard as it sounds, but it does take practice. Once you're comfortable with two or three languages, picking up another should be a piece of cake. If you've only ever used python, go rewrite a simple program you've done before with javascript. See, that wasn't so bad, right?
 
 #### Software Engineering
 You'll learn a lot about how to be a better software engineer during the course, but you will want to at least have a conceptual understanding of version control, CI / CD, testing, and other software engineering best practices.
+
+#### Databases
+Know the basics of how relational databases work and how to use SQL query from them. Your applications will be reading from and writing to databases through out the class and it will be critical for you to be able to check your work by writing simple queries. If you understand the syntax below, you'll probably have most of what you need:
+```sql
+SELECT * FROM CUSTOMERS WHERE LASTNAME = 'Mann' AND CITY = 'New York';
+```
+Find a tutorial and get some practice with SQLite if you've never used SQL before. All the better if you also learn about Object-relational mapping (ORM).
 
 #### Virtualization
 You don't need to know everything about virtualization, but you should probably understand what it is and how to set up a VM. If you want practice, set up a Kali Linux VM and play around with it a little bit. Having a VM with Kali will be very useful in general throughout this program.
