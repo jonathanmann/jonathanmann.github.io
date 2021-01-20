@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visualization - An Unusually Mild NYC Winter
+title: Visualization - An Unusually Mild NYC January
 comments: true
 image: https://jonathanmann.github.io/public/img/nyc_mild_header.png
 excerpt: Over the past weekend, I was happy the weather was warm enough to enjoy spending some time outside, but it started me thinking... it's been pretty warm this year... is this unusual? As it turns out, there hasn't been a single day where the average temperature was below freezing so far this year in NYC. Surely this must happen from time to time. I decided to check the historical data for every year starting from 1949 for the period of January 1st - 19th ... lo and behold, it has never happened in the entire data set until this year!
