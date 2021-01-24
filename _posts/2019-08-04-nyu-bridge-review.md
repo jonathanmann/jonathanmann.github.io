@@ -32,7 +32,7 @@ Familiarize yourself with the material from [Udacity's Intro to Operating System
 Most of the students who enroll end up dropping out once it becomes apparent that they have no path to be admitted to the graduate program or once they realize how much work is involved (more below in the program experience section). If you have a full-time job, I suggest taking the 24-week program as opposed to the 17-week as the program schedule is demanding.
 
 ### Program Experience
-The workload for the program will vary widely from week to week. Some weeks I spent less than 2 hours in total (by using a browser plugin to speed up the lecture playback and finishing the weekly assignment in about 20 minutes) while others took more than 20. Some of my classmates with less programming experience told me they spent over 50 hours a week on haverage. 
+The workload for the program will vary widely from week to week. Some weeks I spent less than 2 hours in total (by using a browser plugin to speed up the lecture playback and finishing the weekly assignment in about 20 minutes) while others took more than 20. Some of my classmates with less programming experience told me they spent over 50 hours a week on average. 
 
 #### Professors and TAs
 The course has multiple professors and TAs. The TAs have been through the program before and are sympathetic to your situation and are a great resource. As for the professors, it's not their fault, but they have other responsibilities and priorities. Be prepared to practice the material on your own and use the TA office hours and your fellow students when you need help.
