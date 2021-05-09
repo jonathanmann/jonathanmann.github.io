@@ -7,7 +7,7 @@ excerpt: Modeling the implications of vaccine distribution can be daunting, but,
 ---
 Modeling the implications of vaccine distribution can be daunting, but, with a few basic assumptions, it becomes possible to create a simulation that can be used to run experiments on how various actions might impact the course of the pandemic.
 
-### Pandemic Duration with and without Vacciation
+### Pandemic Duration with and without Vaccination
 ![MONTE](https://jonathanmann.github.io/public/img/monte_carlo_covid.png)
 According to the [simulation](https://github.com/jonathanmann/blog_examples/blob/master/Python/vaccination_simulation/covid.py) outlined in this post, a universe where 30 million vaccinations are successfully deployed across the United States on a monthly basis until the end of the pandemic would see the pandemic effectively grind to a halt in July of 2021. Alternatively, a universe where there is no vaccine would see the pandemic stretch on for until July of 2022 with over a million additional deaths (~1.7 million deaths total) and 150 million additional cases (~250 million cases total).
 
