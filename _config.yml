@@ -22,4 +22,5 @@ pages_list:
   About: '/about'
   Projects: '/projects'
   GitHub : 'https://github.com/jonathanmann'
+  Now: '/now'
   Else: '/else'
