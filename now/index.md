@@ -3,7 +3,10 @@ layout: page
 title: Now
 ---
 
-Updated August 27th, 2023 from my home in Brooklyn, New York.
+Updated December 22nd, 2023 from my home in Brooklyn, New York.
+
+### Personal
+Ruolin and I purchased some property in Hunter, NY earlier this year, and we're working on developing it. We spent some time in the Galapagos Islands earlier this month and had an amazing time. 
 
 ### Forecasting
 I'm a forcaster for [Samotsvety](https://samotsvety.org/), a [Good Judgement Superforecaster](https://www.credential.net/a5fc2da6-e001-4478-8812-f03a6e370b10#gs.y1449y) and an [INFER All-Star](https://www.infer-pub.com/forecaster/JonathanMann).
