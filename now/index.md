@@ -3,10 +3,10 @@ layout: page
 title: Now
 ---
 
-Updated September 17th, 2024 from my home in Brooklyn, New York.
+Updated December 30th, 2024 from my home in Brooklyn, New York.
 
 ### Personal
-Ruolin (my partner) and I purchased some property in Hunter, NY late last year, and we're working on developing it. We spent some time in Alaska earlier this year and had an amazing time. 
+Ruolin (my partner) and I purchased some property in Hunter, NY late last year, and we're working on developing it. We spent some time in Alaska earlier this year and had an amazing time. More recently, we celebrated our 15th anniversary by learning to scuba dive in Cozumel.
 
 ### Forecasting
 I'm a forcaster for [Samotsvety](https://samotsvety.org/), a [Good Judgement Superforecaster](https://www.credential.net/a5fc2da6-e001-4478-8812-f03a6e370b10#gs.y1449y) and a [professional for the RAND Forecasting Initiative](https://www.randforecastinginitiative.org/forecaster/JonathanMann).
